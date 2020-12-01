@@ -1,0 +1,31 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: shop
+  pool: 5
+  username: omar
+  password: APTItude01
+  host: localhost
+  port: 5432
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: shop
+  pool: 5
+  username: omar
+  password: APTItude01
+  host: localhost
+  port: 5432
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: shop
+  pool: 5
+  username: omar
+  password: APTItude01
+  host: localhost
+  port: 5432
+
+
